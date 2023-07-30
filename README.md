@@ -1,7 +1,7 @@
 # DNA Profiling Project #
 
 Este é um projeto em Python chamado "dna.py" que implementa um programa para identificar a quem uma sequência de DNA pertence. O programa utiliza um arquivo CSV com contagens de STRs (Short Tandem Repeats) para uma lista de indivíduos e um arquivo de texto contendo a sequência de DNA a ser analisada.
-Como funciona
+## Como funciona ##
 
 O programa lê o arquivo CSV contendo os dados dos indivíduos, bem como a sequência de DNA fornecida no arquivo de texto. Em seguida, realiza o cálculo da maior sequência consecutiva de repetições para cada STR presente na sequência de DNA. Comparando essas contagens com o banco de dados genético, o programa identifica o provável dono da sequência de DNA.
 
