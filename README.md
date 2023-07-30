@@ -6,7 +6,7 @@ Como funciona
 O programa lê o arquivo CSV contendo os dados dos indivíduos, bem como a sequência de DNA fornecida no arquivo de texto. Em seguida, realiza o cálculo da maior sequência consecutiva de repetições para cada STR presente na sequência de DNA. Comparando essas contagens com o banco de dados genético, o programa identifica o provável dono da sequência de DNA.
 
 
-##Como usar##
+## Como usar ##
 
     Clone ou faça o download do repositório para o seu computador.
     Certifique-se de que o arquivo "dna.py", o arquivo CSV com as contagens de STRs e o arquivo de texto com a sequência de DNA estejam na mesma pasta.
@@ -17,7 +17,7 @@ O programa lê o arquivo CSV contendo os dados dos indivíduos, bem como a sequ�
 
     (Substitua "database.csv" pelo nome do arquivo CSV e "sequence.txt" pelo nome do arquivo de texto com a sequência de DNA a ser analisada.)
 
-##Resultado##
+## Resultado ##
 
 O programa exibirá o nome do indivíduo correspondente à sequência de DNA ou "Sem correspondência" caso não haja uma correspondência exata nos dados do banco de dados genético.
 
